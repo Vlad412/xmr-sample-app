@@ -1,0 +1,47 @@
+{
+  "name": "xmr-sample-app",
+  "version": "0.0.4",
+  "description": "Sample web app using monero-javascript",
+  "main": "src/index.js",
+  "scripts": {
+    "build_browser_app_unix": "webpack --config ./webpack.config.js",
+    "build_browser_app_windows": "webpack --config .\\webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/woodser/xmr-sample-app.git"
+  },
+  "keywords": [
+    "xmr",
+    "monero",
+    "web",
+    "javascript",
+    "js"
+  ],
+  "author": "woodser",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/woodser/xmr-sample-app/issues"
+  },
+  "homepage": "https://github.com/woodser/xmr-sample-app#readme",
+  "dependencies": {
+    "monero-javascript": "^0.7.7"
+  },
+  "devDependencies": {
+    "acorn": "^6.4.1",
+    "babel-core": "^6.26.3",
+    "babel-loader": "8.0.2",
+    "babel-minify": "^0.2.0",
+    "chai": "^4.2.0",
+    "electron": "^23.0.0",
+    "eslint": "5.6.0",
+    "memfs": "^3.1.2",
+    "minimist": "^1.2.2",
+    "mocha": "^10.2.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-merge": "4.1.4",
+    "worker-loader": "2.0.0"
+  }
+}
